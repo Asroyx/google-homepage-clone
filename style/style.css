@@ -77,7 +77,10 @@ main {
   color: #fff;
   transition: all 0.1s ease;
 }
-.main__searchbox:hover,
+.main__searchbox:hover {
+  border: #202124 solid 1px;
+  background: #4d4e56;
+}
 .main__searchbox input:hover {
   background: #4d4e56;
 }
@@ -102,4 +105,25 @@ input:focus {
 .main__searchbox div:nth-child(4) img {
   width: 34px;
   padding: 5px;
+}
+
+.main__btns {
+  display: flex;
+  justify-content: center;
+}
+
+.main__btns button {
+  font-size: 14px;
+  color: #e8eaed;
+  border: #303134 solid 1px;
+  border-radius: 4px;
+  background: #303134;
+  margin: 28px 6px;
+  padding: 10px 18px;
+  cursor: pointer;
+  transition: border 0.1s;
+}
+
+.main__btns button:hover {
+  border: #60616c solid 1px;
 }
