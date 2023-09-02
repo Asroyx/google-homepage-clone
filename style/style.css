@@ -136,7 +136,7 @@ input:focus {
   border-bottom: 1px solid #dadce0;
 }
 .footer__down {
-  border-bottom: 1px solid #161617;
+  border-bottom: 5px solid #f2f2f2;
   background: #f2f2f2;
   font-size: 14px;
   display: flex;
