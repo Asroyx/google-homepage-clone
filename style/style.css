@@ -12,7 +12,7 @@ header {
   padding: 6px;
   height: 60px;
   width: 100vw;
-  background-color: #202124;
+  background-color: #fff;
 }
 nav {
   margin-left: auto;
@@ -27,14 +27,14 @@ nav {
 }
 .nav__links a {
   font-size: 13px;
-  color: #fff;
+  color: rgba(0, 0, 0, 0.87);
 }
 .nav__links li:nth-child(3) a img {
   margin-top: 4px;
   border-radius: 50%;
 }
 .nav__links li:nth-child(3) a img:hover {
-  background: #3a3b41;
+  background-color: rgba(60, 64, 67, 0.08);
 }
 
 .nav__links li:nth-child(4) a img {
@@ -44,7 +44,7 @@ nav {
   border-radius: 50%;
 }
 .nav__links li:nth-child(4) a img:hover {
-  background: #3a3b41;
+  background-color: rgba(60, 64, 67, 0.08);
 }
 
 .nav__links a:hover {
@@ -52,12 +52,12 @@ nav {
 }
 
 main {
-  background: #202124;
+  background: #fff;
   width: 100vw;
   height: calc(100vh - 156px);
 }
 .main__logo {
-  height: 30vh;
+  height: 29vh;
 }
 .main__logo img {
   top: 14vh;
@@ -68,31 +68,27 @@ main {
 }
 
 .main__searchbox {
+  margin: 6px auto 0 auto;
   align-items: center;
   display: flex;
-  margin: auto;
   width: 582.4px;
   height: 46px;
-  border: #4d4e56 solid 1px;
+  border: rgb(223, 225, 229) solid 1px;
   border-radius: 50px;
   color: #fff;
   transition: all 0.1s ease;
 }
 .main__searchbox:hover {
-  border: #202124 solid 1px;
-  background: #4d4e56;
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 }
-.main__searchbox input:hover {
-  background: #4d4e56;
-}
-
 .main__searchbox input {
-  background: #202124;
+  background: #fff;
   font-size: 16px;
   border: none;
   width: 443px;
-  height: 44px;
-  color: #fff;
+  height: 40px;
+  color: #000;
   transition: all 0.1s ease;
 }
 input:focus {
@@ -116,10 +112,10 @@ input:focus {
 
 .main__btns button {
   font-size: 14px;
-  color: #e8eaed;
-  border: #303134 solid 1px;
+  color: #3c4043;
+  border: #f8f9fa solid 1px;
   border-radius: 4px;
-  background: #303134;
+  background: #f8f9fa;
   margin: 28px 6px;
   padding: 10px 18px;
   cursor: pointer;
@@ -127,27 +123,28 @@ input:focus {
 }
 
 .main__btns button:hover {
-  border: #60616c solid 1px;
+  border: 1px solid #dadce0;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
 .footer__up {
   height: 48px;
-  background: #161617;
-  color: #9ba099;
+  background: #f2f2f2;
+  color: #70757a;
   padding: 15px 30px;
   font-size: 15px;
+  border-bottom: 1px solid #dadce0;
 }
 .footer__down {
-  border-top: 1px solid #3c4043;
-  border-bottom: 1px solid #161617;
-  background: #161617;
+  border-bottom: 5px solid #f2f2f2;
+  background: #f2f2f2;
   font-size: 14px;
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
 }
 .footer__down a {
-  color: #9ba099;
+  color: #70757a;
 }
 .down__left {
   display: flex;
